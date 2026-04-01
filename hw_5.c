@@ -36,7 +36,7 @@ static inline int u64_to_str(uint64_t val, char *buf) {
 }
 
 int main() {
-    FILE *f = fopen("output.txt", "w");
+    FILE *f = fopen("hw5_test.txt", "w");
     if (!f) {
         perror("fopen");
         return 1;
